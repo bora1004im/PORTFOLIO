@@ -1,0 +1,282 @@
+{
+    "project":[
+        {
+            "code":1, 
+            "img":"./img/mockup1.png", 
+            "title":"Hollys Coffee",
+            "titlemain":"할리스",
+            "titlesubmain":"리뉴얼 사이트",
+            "time":"10일",
+            "make":"Main page 1 + Sub page 8",
+            "progrem":"Photoshop / HTML5 / CSS3/ JS",
+            "skill":"javascript 활용한 동적 기술, swiper slide plugin",
+            "level":"100%",
+            "point-color":"#D91226",
+            "site":"https://bora1004im.github.io/HOLLYS/",
+            "video1":"./video/hollys1.mp4",
+            "video2":"./video/hollys2.mp4",
+            "video3":"./video/hollys3.mp4",
+
+            "title-e":"Hollys Coffe",
+            "title-k":"할리스",
+            "title-subtitle":"리뉴얼사이트",
+            "title-concept":"밝은 컨셉을 포인트로하여 제작한 반응형 웹사이트 입니다.",
+            "title-img":"./img/holly.png",
+
+            "overview":"현재 할리스 홈페이지는 세련되지 않은 디자인과 동적인 효과가 많이 없다는 점이 아쉬웠습니다.또한 다른 사이트에 비해 가독성이 매우 떨어졌으며 웹사이트를 찾는 소비자로 하여금 좀 더 재밌있고 편리하게 정보를 전달 받을 수 있도록 하는 개선의 필요성을 느끼게되어 리뉴얼 디자인을 하게 되었습니다.",
+            "concept":"기존 할리스의 느낌인 <b>'깔끔'</b>하고 <b>'밝은'</b> 이미지에 부합호도록 전반적인 레이아웃을 재구성했으며, 기존에는 없던 동적인 기능을 많이 사용하며 소비자로 하여금 보는 재미를 더하고 컨텐츠의 집중도를 높였습니다.",
+            "color":"#D91226,#C2A571,#282828,#DFDFDF",
+            "font":"./img/hollys-font.png",
+
+            "keyword":[
+                {
+                    "keyword-e":"SIMPLE",
+                    "keyword-k":"심플함"
+                },
+                {
+                    "keyword-e":"LIGHT",
+                    "keyword-k":"밝음"
+                },
+                {
+                    "keyword-e":"FUNNY",
+                    "keyword-k":"재미있는"
+                }
+            ],
+
+            "mockup":"./img/hollys-mockup.png",
+
+            "code-review":[
+                {
+                    "code-name":"스크롤 이벤트와 스크롤바 연동하기",
+                    "code-img":"",
+                    "code-txt":"offsetTop을 이용하여 스크롤을 한번 하면 바로 다음페이지로 넘어가게 구현하였으며, 페이지 이동할때마다 옆 페이지 이동을 보여줄 수 있는 스크롤바를 디자인 하였습니다."
+                },
+                {
+                    "code-name":"메뉴 펼쳐보기",
+                    "code-img":"",
+                    "code-txt":"flex-grow를 사용하여 flex 자식요소의 증가 너비 비율을 설정하여 hover하면 해당 메뉴가 비율에 맞게 넓어져 해당 페이지의 설명과 페이지 이동이 가능하게 구현하였습니다."
+                },
+                {
+                    "code-name":"offsetTop 사용하기",
+                    "code-img":"",
+                    "code-txt":"offsetTop을 이용하여 해당 div a를 누르면 그 위치에 스크롤 이벤트를 실행 시켰습니다."
+                }
+            ]
+        },
+        {
+            "code":2, 
+            "img":"./img/mockup3.png",
+            "title":"Cellrture",
+            "titlemain":"셀리턴",
+            "titlesubmain":"클론사이트",
+            "time":"5일",
+            "make":"Main page 1",
+            "progrem":"HTML5 / SASS / JS",
+            "skill":"javascript 활용한 동적 기술, swiper slide plugin",
+            "level":"100%",
+            "point-color":"#C2A571",
+            "site":"",
+            "video1":"./video/cellrturn1.mp4",
+            "video2":"./video/cellrturn2.mp4",
+            "video3":"./video/cellrturn3.mp4",
+
+            "title-e":"Cellrturn",
+            "title-k":"셀리턴",
+            "title-subtitle":"클론 사이트",
+            "title-concept":"기존 사이트를 클론한 모바일 사이트 입니다.",
+            "title-img":"./img/cellrturn.png",
+
+            "mockup":"./img/cellreture-mockup.png",
+
+            "code-review":[
+                {
+                    "code-name":"토글이벤트",
+                    "code-img":"",
+                    "code-txt":"버거메뉴에 토글 이벤트를 사용하였으며 선택한 li만 'active'를 발생시켜 이를 조건문으로 이용해서 'active'만 들어간 div만 색상이 변하게 구현하였습니다."
+                },
+                {
+                    "code-name":"photo 누를시 숨어있던 span이 올라오기",
+                    "code-img":"",
+                    "code-txt":"span에 translateY값을 0으로 숨겨두었다가 toggleSlide를 이용해 translateY 100%로 이용하여 구현하였으며 화살표 모양도 'acticve'를 이용하여 방향을 변경해주었습니다."
+                },
+                {
+                    "code-name":"설정된 위치(scroll event)에 오면 인터벌 실행",
+                    "code-img":"",
+                    "code-txt":"해당 위치에 오면 인터벌이 발생하도록 구현하였습니다. 4가지의 숫자가 다 다르므로 각각 offsetTop으로 설정하여 그 시점이 도달하면 interval이 실행되도록 구현하였습니다."
+                }
+            ]
+        },
+        {
+            "code":3, 
+            "img":"./img/mockup2.png",
+            "title":"FOR#REST",
+            "titlemain":"포레스트",
+            "titlesubmain":"반응형 웹사이트 제작",
+            "time":"14일",
+            "make":"Main page 1 + Sub page 6",
+            "progrem":"Photoshop / HTML5 / SASS / JS",
+            "skill":"javascript 활용한 동적 기술, swiper slide plugin",
+            "level":"60%",
+            "point-color":"#536879",
+            "site":"http://itsjuheee.dothome.co.kr/",
+            "video1":"./video/forrest1.mp4",
+            "video2":"./video/forrest2.mp4",
+            "video3":"./video/forrest3.mp4",
+
+            "title-e":"FOR#REST",
+            "title-k":"포레스트",
+            "title-subtitle":"반응형 웹사이트 제작",
+            "title-concept":"API이용하여 기획&제작한 반응형 웹사이트 입니다.",
+            "title-img":"./img/forrest.png",
+
+            "overview":"대부분의 캠핑장 사이트 서비스는 캠핑장 예약에 집중된 서비스를 제공을 하고 있으며,필요한 캠핑 정보 관련 정보 콘텐츠는 부족하다고 생각하였습니다.사용자에게 맞춤 청보를 제공하며 캠핑 관련 정보 수집 과정에서 겪는 다양한 어려움을 해결 할 수 있는 <b>캠핑 정보 공유 플랫폼 서비스를 제공</b>을 위해 포레스트를 기획하였습니다.",
+            "concept":"숲을 의미하는 <b>FORREST</b>와 휴식을 의미하는 <b>REST</b>의 합성어로, 자연과 쉼이 공존하는 의미를 담고 있습니다. 자유로운 느낌의 얇은 폰트와, 차분한 분위기의 네이비컬러를 사용하여 캠핑의 엑티비티한 분위기와 휴식의 느낌을 더하여 기획하였습니다.",
+            "color":"#0E141C,#132839,#536879,#DFDFDF",
+            "font":"./img/forrest-font.png",
+
+            "keyword":[
+                {
+                    "keyword-e":"FRESH",
+                    "keyword-k":"신선함"
+                },
+                {
+                    "keyword-e":"MYSTERIOUS",
+                    "keyword-k":"신비로움"
+                },
+                {
+                    "keyword-e":"REST",
+                    "keyword-k":"휴식"
+                }
+            ],
+
+
+            "mockup":"./img/forrest-mockup.png",
+
+            "code-review":[
+                {
+                    "code-name":"카카오톡 api 로그인/로그아웃/정보가져오기",
+                    "code-img":"",
+                    "code-txt":"카카오 로그인 api 를 이용한 로그인 서비스 입니다.카카오톡 연동 api를 가져와 LOGIN 버튼을 누르면 카카오톡 로그인 페이지가 열리며 카카오톡 아이디로 로그인 할 경우 MY PAGE에서 카카오톡 프로필과 이름을 가져와 사용하도록 연결 하였습니다."
+                },
+                {
+                    "code-name":"나만의 필터에 맞게 캠핑장 검색하기",
+                    "code-img":"",
+                    "code-txt":"한국관광공사 api를 이용하여 지역,테마,주제 data를 불러온 후 필터에 맞는 data를 찾아 검색결과가 나타나도록 구현하였습니다."
+                },
+                {
+                    "code-name":"그누보드 이용하여 communty 사용하기",
+                    "code-img":"",
+                    "code-txt":"그누보드를 이용하여 PHP를 html에 적용시켜 그누보드와 연동 할 수 있게 구현하였습니다. 안에서 직접 글작성하기와 댓글이 가능하며 css를 통해 디자인 수정이 가능합니다."
+                }
+            ]
+        },
+        {
+            "code":4, 
+            "img":"./img/mockup4.png",
+            "title":"PORTFOLIO",
+            "titlemain":"포트폴리오",
+            "titlesubmain":"포트폴리오 제작",
+            "time":"10일",
+            "make":"Main page 1",
+            "progrem":"Photoshop / HTML5 / SASS / JS",
+            "skill":"javascript 활용한 동적 기술, swiper slide plugin",
+            "level":"100%",
+            "point-color":"#492D94",
+            "site":"http://itsjuheee.dothome.co.kr/",
+            "video1":"./video/bora1.mp4",
+            "video2":"./video/bora2.mp4",
+            "video3":"./video/bora3.mp4",
+
+            "title-e":"BORA's PORTFOLIO",
+            "title-k":"보라의 포트폴리오",
+            "title-subtitle":"포트폴리오 제작",
+            "title-concept":"저의 작업물 포트폴리오 입니다.",
+            "title-img":"./img/bora.png",
+
+            "overview":"작업했던 홈페이지 코딩 내용과 디자인하였던것을 같이 보여줄 수 있도록 기획하였습니다. about부분에서 저의 욕심과 업무능력을 보여줄 수 있게 구성하고  project와 design 부분에서는 팝업을 이용하여 html , css 때와는 다르게 반복작업을 최소화 할 수있는 데이터를 불러오는 방식을 사용하여 진행하였습니다.",
+            "concept":"저의 이름이 ‘보라’이기에 이름에서 임팩트를 주기 위해 포인트 컬러로 ‘보라색’ 을 사용하였으며 ajax를 사용하여 가독성이 좋고 유지보수가 쉽게 구성하였습니다. 목업 위주에 이미지를 넣어 깔끔하고 사용자들이 편리하게 이용 할 수 있도록 디자인 하였습니다.",
+            "color":"#492D94,#BC96D4,#5F5F5F,#DFDFDF",
+            "font":"./img/bora-font.png",
+
+            "keyword":[
+                {
+                    "keyword-e":"BORA",
+                    "keyword-k":"보라"
+                },
+                {
+                    "keyword-e":"SIMPLE",
+                    "keyword-k":"심플함"
+                },
+                {
+                    "keyword-e":"CREATIVE",
+                    "keyword-k":"창의적인"
+                }
+            ],
+
+
+            "mockup":"./img/bora-mockup.png",
+
+            "code-review":[
+                {
+                    "code-name":"SVG 사용하기",
+                    "code-img":"",
+                    "code-txt":"메인 text 아래 background에 SVG를 사용하여 mousemove event를 이용하여 ClientX, ClinentY의 값을 불러와 margin left, top의 이동으로 움직임을 주었습니다."
+                },
+                {
+                    "code-name":"offsetTop 사용하여 스크롤 이벤트",
+                    "code-img":"",
+                    "code-txt":"offsetTop을 이용하여 해당 div a를 누르면 그 위치에 스크롤 이벤트를 실행 시켰습니다."
+                },
+                {
+                    "code-name":"각 slide안에 css 적용하기",
+                    "code-img":"",
+                    "code-txt":"각 Slide마다 기여도 css 애니메이션이 발생되고 width 값도 각각 지정해주어 다 다른 기여도가 실행되도록 한다. code에 switch를 이용하여 각 csse 를 이용하여 작업하였습니다."
+                }
+            ]
+        }
+    ],
+    "design":[
+        {
+            "code":1,
+            "img":"./img/design1.png",
+            "title":"‘T.G.I’ 메인페이지 디자인",
+            "photo":"./img/design1-1.png",
+            "txt":"T.G.I만의 경쾌하고 밝은 분위기를 살리며 세련되며 깔끔하게 메인페이지를 디자인 하였습니다."
+        },
+        {
+            "code":2,
+            "img":"./img/design2.png",
+            "title":"‘VALLO DE NERA’ 메인페이지 디자인",
+            "photo":"./img/design2-1.png",
+            "txt":"심플하면서 감성적인 느낌으로 메인페이지를 디자인 하였습니다."
+        },
+        {
+            "code":3,
+            "img":"./img/design3.png",
+            "title":"'플라스틱 줄이기 캠페인' 디자인",
+            "photo":"./img/design3-1.png",
+            "txt":"청량한 컬러인 푸른색을 포인트 컬러로 사용하여 디자인 하였습니다."
+        },
+        {
+            "code":4,
+            "img":"./img/design4.png",
+            "title":"'대구 이월드 별빛축제' 디자인",
+            "photo":"./img/design4-1.png",
+            "txt":"벚꽃과 밤하늘을 합성하여 별빛,벚꽃 축제의 느낌을 살려 디자인 하였습니다."
+        },
+        {
+            "code":5,
+            "img":"./img/design5.png",
+            "title":"'지금 만나러 갑니다' 북커버 디자인",
+            "photo":"./img/design5-1.png",
+            "txt":""
+        },
+        {
+            "code":6,
+            "img":"./img/design6.png",
+            "title":"'신과함께' 북커버 디자인",
+            "photo":"./img/design6-1.png",
+            "txt":""
+        }
+    ]
+}
