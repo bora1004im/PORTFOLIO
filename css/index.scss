@@ -37,6 +37,10 @@ header{
     }
 }
 
+::selection{
+    background-color:#482d9442 ;
+    color: #fff;
+}
 main{
     font-family: 'S-CoreDream-3Light';
     position:fixed; left:0; top:0;
@@ -80,7 +84,7 @@ main{
             line-height: 10px;
             margin-left: 2%;
             color: #7d7d7d;
-            font-family: 'S-CoreDream-4Regular';
+            font-family: 'S-CoreDream-3Light';
 
             display: table-cell; vertical-align: middle;
             border-right: .05em solid #7d7d7d;
@@ -553,8 +557,6 @@ main{
                                         border: 1px solid #aeaeae; 
                                     }
                                 }
-                                .font-img{
-                                }
                             }
                             .keyword{
                                 margin-bottom: 15%;
@@ -664,11 +666,6 @@ main{
                                 .img{
                                     display: flex;
                                     align-items: center;
-                                    p{
-                                        video{
-                                            
-                                        }
-                                    }
                                     span{
                                         line-height: 30px;
                                         bottom: 0%;
@@ -692,9 +689,6 @@ main{
                                     flex-direction: row-reverse;
 
                                     text-align: end;
-                                    video{
-                                        
-                                    }
                                     span{
                                         line-height: 30px;
                                         bottom: 0%;

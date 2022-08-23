@@ -64,6 +64,16 @@ header div a.active {
   color: #492D94;
 }
 
+::-moz-selection {
+  background-color: #482d9442;
+  color: #fff;
+}
+
+::selection {
+  background-color: #482d9442;
+  color: #fff;
+}
+
 main {
   font-family: 'S-CoreDream-3Light';
   position: fixed;
@@ -130,7 +140,7 @@ main .intro p {
   line-height: 10px;
   margin-left: 2%;
   color: #7d7d7d;
-  font-family: 'S-CoreDream-4Regular';
+  font-family: 'S-CoreDream-3Light';
   display: table-cell;
   vertical-align: middle;
   border-right: .05em solid #7d7d7d;
